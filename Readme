@@ -1,0 +1,26 @@
+Source:
+- server.c
+- client.c
+- utils.c
+- thread.c
+- utils.h
+- thread.h
+- Makefile
+- design_doc.pdf
+- pokemon.csv
+- Readme
+
+Instructions for Compiling and Running:
+1. To compile the code you can use the provided Makefile using "make <file [ex. server, client, all]>" command, replace all areas surronded by <> with their appropriate values as shown in their examples.
+
+2. To run the file use the "./<name [ex. server]>" command, this executes the compiled machine code generated from the previous step.
+
+To compile and run the program do the following:
+- make server && make client && make clean
+- make all & make clean
+- make && make clean
+
+Then use either
+- ./client
+- ./server
+- [w/ Valgrind] valgrind --leak-check=full ./client
