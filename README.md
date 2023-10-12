@@ -11,6 +11,13 @@ This program is designed to explore the properties of Pokemon by providing a cli
    - Gamers can start the PQC and connect to the PPS.
    - PQC offers a menu with options to search for Pokemon by type, save query results, and exit the program.
 
+## Technical Design Flow
+### Pokemon Property Server (PPS)
+![](flowcharts/flowchart_PPS.png)
+
+### Pokemon Query Client (PQC)
+![](flowcharts/flowchart_PQC.png)
+
 ## Project Files
 The source files for this project include:
 - `server.c`
